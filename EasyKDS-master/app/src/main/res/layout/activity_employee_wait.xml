@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.EmployeeWaitActivity">
+
+
+    <Button
+        android:id="@+id/employee_copy_id"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy ID"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have been not assigned any restaurant!"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_margin="40dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+
+
+</LinearLayout>

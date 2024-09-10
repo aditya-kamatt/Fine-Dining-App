@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.AddEmployeeActivity">
+
+    <EditText
+        android:id="@+id/add_employee_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter employee ID"
+        android:textColorHint="@color/colorPrimary"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/add_employee_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
