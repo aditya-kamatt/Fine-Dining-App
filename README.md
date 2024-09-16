@@ -1,19 +1,20 @@
 # Fine Dining App
-When I eat in multi-cuisine restaurants, I've seen that the servers collect orders on a notebook. The management then receives the paper with the order, and the manager passes it to the cook.. This is a personal project that solves that problem with help of EasyKDS which will be used in displaying the orders in kitchen and EasyRestro will be used to take orders and can be used by receptionist as well. 
 
-## Key Features
-<ul>
-  <li>It let's owner to add as many restaurants as they want and will be able to manage all restaurants from this app.</li>
-  <li>Onwer can grant restaurant access permission to their employees as per the need.</li>
-  <li>App lets them to decide and customize Menu according to need like add and remove categories and items per restaurant.</li>
-  <li>Allows them to keep a track on the on-going orders and what they have ordered and at which table.</li>
-  <li>Waiter can take order from table and order can be previewed before sending it to kitchen. </li>
-  <li>This method is quicker than the traditional one and it reduces use of paper plus it reduces the risk of cooking unwanted items.</li>
-  <li>This application is much useful in big restaurants as it allows to handle large number of tables.</li>
-</ul>
+This project aims to streamline the ordering process in restaurants by providing a digital system for managing orders and table service. It replaces traditional paper-based order systems with a modern solution that uses EasyKDS for kitchen display and EasyRestro for order management.
 
-## Technical Overview
-Languages used to develop this application : Java, XML <br/>
-Tools : Firebase Realtime Database and Android Studio<br/>
-This android app is made on Android Studio which uses Java for back-end and XML for front-end development.<br/>
-All data of this app is being stored in Firebase Realtime Database and EasyKDS retrieves data from realtime database.
+## Features
+- Manage multiple restaurants from one app.
+- Customizable restaurant menus (categories and items).
+- Track ongoing orders and table assignments.
+- Waiter-friendly order-taking system with preview before sending to the kitchen.
+- Efficient and paperless communication between kitchen and waitstaff.
+
+## Technology
+- **Languages**: Java, XML
+- **Tools**: Firebase Realtime Database, Android Studio
+
+## How It Works
+- Owners can add restaurants, customize menus, and grant employee access.
+- Orders taken via EasyRestro are sent to the kitchen using EasyKDS.
+- Data is stored and retrieved from Firebase Realtime Database.
+
